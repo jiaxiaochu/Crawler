@@ -1,0 +1,29 @@
+# !/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
+# -*- coding:utf-8 -*-
+# @Author : Jiazhixiang
+
+# python中的轻量级定时任务调度库：schedule
+# https://www.cnblogs.com/anpengapple/p/8051923.html
+
+import schedule
+import time
+
+
+# 引入schedule和time
+
+def job():
+    print("I'm working...")
+
+
+# 定义一个叫job的函数，函数的功能是打印'I'm working...'
+
+schedule.every(0.1).minutes.do(job)  # 部署每10分钟执行一次job()函数的任务
+# schedule.every().hour.do(job)  # 部署每×小时执行一次job()函数的任务
+# schedule.every().day.at("10:30").do(job)  # 部署在每天的10:30执行job()函数的任务
+# schedule.every().monday.do(job)  # 部署每个星期一执行job()函数的任务
+# schedule.every().wednesday.at("13:15").do(job)  # 部署每周三的13：15执行函数的任务
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+    # 13-15都是检查部署的情况，如果任务准备就绪，就开始执行任务。

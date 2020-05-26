@@ -1,0 +1,1497 @@
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7 show-anti-ie"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8 show-anti-ie"> <![endif]-->
+<!--[if IE 8]>    <html xmlns:ng="http://angularjs.org" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+
+<head>
+  
+
+
+    <title>
+本周最受欢迎菜谱
+_下厨房</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8;">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//s.chuimg.com">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-itunes-app" content="app-id=460979760"/>
+    <meta name="baidu-site-verification" content="HNAbHIxmbo" />
+    <meta name="renderer" content="webkit">
+    <link href="https://s.chuimg.com/favicon.ico" rel="shortcut icon">
+
+    <script src="//dup.baidustatic.com/js/ds.js"></script>
+  
+
+<link rel="canonical" href="https://www.xiachufang.com/explore/">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.xiachufang.com/explore/">
+<link rel="alternate" media="handheld" href="https://m.xiachufang.com/explore/">
+
+<meta name="keywords" content="流行菜谱,流行食谱" />
+<meta name="description" content="下厨房为您提供最近流行的菜谱，看看大家最近都在吃什么。" />
+
+  
+
+
+<link href="//s.chuimg.com/dist/d2f496ed6abf089d727b.css" rel="stylesheet" type="text/css">
+
+<link href="//s.chuimg.com/dist/57e0854d7514cdf860ce.css" rel="stylesheet" type="text/css">
+
+  <!--[if IE 8]>
+  <script src="https://s.chuimg.com/js/2013/lib/es5-shim.min.js"></script>
+  <script src="https://s.chuimg.com/js/2013/lib/es5-sham.min.js"></script>
+  <script src="https://s.chuimg.com/js/2013/lib/console-polyfill.js"></script>
+  <script>
+    document.createElement('ng-include');
+    document.createElement('ng-pluralize');
+    document.createElement('ng-view');
+
+    // Optionally these for CSS
+    document.createElement('ng:include');
+    document.createElement('ng:pluralize');
+    document.createElement('ng:view');
+  </script>
+  <![endif]-->
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ecd4feb5c351cc02583045a5813b5142";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+
+<script type="text/javascript">
+  (function(para) {
+    var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+    if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+        return false;
+    }
+    w['sensorsDataAnalytic201505'] = n;
+    w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+    var ifs = ['track','quick','register','registerPage','registerOnce','clearAllRegister','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister'];
+    for (var i = 0; i < ifs.length; i++) {
+      w[n][ifs[i]] = w[n].call(null, ifs[i]);
+    }
+    if (!w[n]._t) {
+      x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+      x.async = 1;
+      x.src = p;
+      y.parentNode.insertBefore(x, y);
+      w[n].para = para;
+    }
+  })({
+      sdk_url: '//s.chuimg.com/upload/sensorsdata-1.12.18.min.js',
+      name: 'sensors',
+      server_url:('https:' == document.location.protocol ? 'https://' : 'http://') +'trackbeat.xiachufang.com/sa?project=xcf',
+      heatmap_url: '//s.chuimg.com/upload/heatmap-1.12.18.min.js',
+      heatmap: {
+        clickmap:'default',
+        scroll_notice_map: 'default'
+      },
+      debug_mode: false,
+      use_client_time: true,
+      use_app_track: true,
+      show_log: false
+    });
+    function getCookie (name) {
+      var arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'))
+      if (arr != null) {
+        return unescape(arr[2])
+      }
+      return ''
+    }
+    function getPDID () {
+      var pdid = localStorage.getItem('xcf_pdid')
+      if (!pdid) {
+        pdid = Math.random().toString().slice(2, 15)
+        localStorage.setItem('xcf_pdid', pdid)
+      }
+      return pdid
+    }
+    var userId = getCookie('user_id');
+    var presetProperties = {
+      $referrer: document.referrer,
+      $referrer_host: document.referrer && document.referrer.split('/')[2],
+      $url: location.href,
+      $url_path: location.pathname,
+      $title: document.title,
+      $os: /ipad|iphone|ipod/i.test(navigator.userAgent) ? 'iOS' : 'Android',
+      $ua: navigator.userAgent,
+      $pdid: getPDID()
+    };
+    if (userId) {
+      sensors.login(userId);
+      presetProperties['xcf_user_id'] = +userId
+    }
+    sensors.registerPage(presetProperties);
+    sensors.quick('autoTrack', presetProperties);
+</script>
+
+  
+
+
+
+
+<script type="text/javascript">
+_gaq=[['_setAccount', 'UA-22069234-1'],
+      ['_setCustomVar', 1, 'user', 'anonymous', 3],
+      ['_setCustomVar', 4, 'dish_title', 'dish_title_1', 3],
+      ['_setCustomVar', 5, 'recommend_recipe_list', 'recommend_recipe_list_0', 3],
+      ['_trackPageview'],['_trackPageLoadTime']];
+
+
+(function(){
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})()
+</script>
+
+</head>
+
+
+
+<body>
+
+<!--[if IE]>
+<div class="anti-ie hidden">
+  <div class="wrapper">
+    <div class="collapsed">
+    啊！页面乱了！因为下厨房不再支持IE8以下版本，我们推荐你<a target="_blank" href="https://ie.microsoft.com" rel="nofollow">更新你的浏览器</a>，或使用<a href="https://www.baidu.com/s?wd=%E6%B5%8F%E8%A7%88%E5%99%A8" rel="nofollow" target="_blank">其他浏览器</a>。
+    <a href="javascript:void(0)" class="button open">为什么</a>
+    </div>
+
+    <div class="expanded pure-g hidden">
+      <div class="pure-u-1-4">
+        <div class="title bold-font">
+        IE的故事
+        </div>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="story ">
+          <img src="https://s.chuimg.com/pic/2013/ie-story.png" alt="IE的故事">
+        </div>
+      </div>
+      <div class="pure-u-1-4 align-right">
+        <a href="javascript:void(0)" class="normal-font gray-link close">关闭</a>
+      </div>
+    </div>
+  </div>
+</div>
+<![endif]-->
+
+<div class="popup-layer">
+
+  
+  <div class="reveal-modal-bg"></div>
+  
+<div class="reveal-modal large normal-font" id="feedbackModal">
+  
+  <div class="reveal-modal-title-bar">
+    <div class="reveal-modal-title">意见反馈</div>
+    <a href="javascript:void(0)" class="close-reveal-modal" rel="nofollow"></a>
+  </div>
+  <div class="reveal-modal-main">
+    
+    
+    <form action="/feedback/create/" method="POST">
+      <textarea name="feedback" rows="3"></textarea>
+      <input type="hidden" name="xf" value="None">
+      <input type="submit" value="提交" class="button">
+    </form>
+  
+  
+  </div>
+
+</div>
+
+
+</div>
+
+<div class="topbar-outer has-bottom-border">
+  <div class="topbar-container">
+    <div class="topbar">
+      
+
+
+
+  <div class="pure-g">
+    <div class="pure-u-1-6">
+      <a href="/" class="logo">下厨房</a>
+    </div>
+    <div class="pure-u-5-6">
+      <div class="float-left">
+          <form class="search" action="/search/">
+              <input type="text" name="keyword" class="typeahead float-left" value="" placeholder="搜索菜谱、食材">
+              <input type="hidden" name="cat" value="1001">
+              <input type="submit" value="搜菜谱" class="button float-left">
+          </form>
+      </div>
+      <div class="float-left">
+          <ul class="site-nav plain pure-g">
+            <li class="pure-u"><a href="/" data-ga-event="公共页面/导航栏/$text">首页</a></li>
+            <li class="topbar-cats pure-u">
+            <a href="/category/" class="block-link" data-ga-event="公共页面/导航栏/$text"><span>菜谱分类</span></a>
+            <div class="topbar-cats-submenu hidden">
+              <div class="topbar-cats-submenu-bg">
+              
+                
+                <ul class="plain">
+                    <li class='topbar-cat-head'>常用主题</li>
+                    <li><a href="/category/40076/" title="家常菜菜谱大全" data-ga-event="公共页面/导航栏/$text">家常菜</a></li>
+                    <li><a href="/category/40077/" title="快手菜菜谱大全" data-ga-event="公共页面/导航栏/$text">快手菜</a></li>
+                    <li><a href="/category/40078/" title="下饭菜菜谱大全" data-ga-event="公共页面/导航栏/$text">下饭菜</a></li>
+                    <li><a href="/category/40071/" title="早餐菜谱大全" data-ga-event="公共页面/导航栏/$text">早餐</a></li>
+                    <li><a href="/category/30048/" title="减肥菜谱大全" data-ga-event="公共页面/导航栏/$text">减肥</a></li>
+                    <li><a href="/category/20130/" title="汤羹菜谱大全" data-ga-event="公共页面/导航栏/$text">汤羹</a></li>
+                    <li><a href="/category/51761/" title="烘焙菜谱大全" data-ga-event="公共页面/导航栏/$text">烘焙</a></li>
+                    <li><a href="/category/40073/" title="小吃菜谱大全" data-ga-event="公共页面/导航栏/$text">小吃</a></li>
+                </ul>
+                <ul class="plain">
+                    <li class='topbar-cat-head'>常见食材</li>
+                    <li><a href="/category/731/" title="猪肉做法大全" data-ga-event="公共页面/导航栏/$text">猪肉</a></li>
+                    <li><a href="/category/1136/" title="鸡肉做法大全" data-ga-event="公共页面/导航栏/$text">鸡肉</a></li>
+                    <li><a href="/category/1445/" title="牛肉做法大全" data-ga-event="公共页面/导航栏/$text">牛肉</a></li>
+                    <li><a href="/category/957/" title="鱼做法大全" data-ga-event="公共页面/导航栏/$text">鱼</a></li>
+                    <li><a href="/category/394/" title="鸡蛋做法大全" data-ga-event="公共页面/导航栏/$text">鸡蛋</a></li>
+                    <li><a href="/category/206/" title="土豆做法大全" data-ga-event="公共页面/导航栏/$text">土豆</a></li>
+                    <li><a href="/category/178/" title="茄子做法大全" data-ga-event="公共页面/导航栏/$text">茄子</a></li>
+                    <li><a href="/category/80/" title="豆腐做法大全" data-ga-event="公共页面/导航栏/$text">豆腐</a></li>
+                </ul>
+                <ul class="plain">
+                    <li class='topbar-cat-head'>时令食材</li>
+                    <li>
+                    <a href="/category/718/" title="番茄做法大全" data-ga-event="公共页面/导航栏/$text">番茄</a>
+                    <span class="topbar-cat-score">
+                        10.0
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/1183/" title="螃蟹做法大全" data-ga-event="公共页面/导航栏/$text">螃蟹</a>
+                    <span class="topbar-cat-score">
+                        8.8
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/5394/" title="青红椒做法大全" data-ga-event="公共页面/导航栏/$text">青红椒</a>
+                    <span class="topbar-cat-score">
+                        8.6
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/4359/" title="萝卜做法大全" data-ga-event="公共页面/导航栏/$text">萝卜</a>
+                    <span class="topbar-cat-score">
+                        8.1
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/1004542/" title="金桔做法大全" data-ga-event="公共页面/导航栏/$text">金桔</a>
+                    <span class="topbar-cat-score">
+                        7.9
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/1461/" title="蟹味菇做法大全" data-ga-event="公共页面/导航栏/$text">蟹味菇</a>
+                    <span class="topbar-cat-score">
+                        7.8
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/175/" title="平菇做法大全" data-ga-event="公共页面/导航栏/$text">平菇</a>
+                    <span class="topbar-cat-score">
+                        7.5
+                    </span>
+                    </li>
+                    <li>
+                    <a href="/category/612/" title="牛腩做法大全" data-ga-event="公共页面/导航栏/$text">牛腩</a>
+                    <span class="topbar-cat-score">
+                        7.3
+                    </span>
+                    </li>
+                </ul>
+                <div class="topbar-cats-submenu-bottom"><a href="/category/" data-ga-event="公共页面/导航栏/$text">查看全部分类</a></div>
+              
+              </div>
+            </div>
+            </li>
+            <li class="pure-u"><a href="/explore/menu/collect/" data-ga-event="公共页面/导航栏/$text">菜单</a></li>
+            <li class="pure-u"><a href="/activity/" data-ga-event="公共页面/导航栏/$text" rel="nofollow">作品动态</a></li>
+          </ul>
+        </div>
+        <div class="float-right clearfix">
+          <div class="user-action">
+              <a href="/auth/login/" data-ga-event="公共页面/导航栏/$text" rel="nofollow">登录</a>&nbsp;&nbsp;
+              <a href="/auth/apply/" data-ga-event="公共页面/导航栏/$text" rel="nofollow">注册</a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="page-top-ad">
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3543486',
+        container: s,
+        size: '1000,90',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+</div>
+
+
+<div class="page-outer">
+  <!--begin of page-container-->
+  <div class="page-container">
+    
+    
+      
+      <div class="pure-g">
+        <!-- begin of main-panel -->
+        <div class="pure-u-2-3 main-panel">
+          
+<div class="white-bg block">
+  <div class="pure-g">
+    <div class="pure-u-1-4 search-left-nav">
+      <ul class="plain list search-left-nav-list">
+        <li><a href="/category/">全部分类</a></li>
+                <li class="active">本周最受欢迎</li>
+
+                <li><a href="/explore/rising/">新秀菜谱</a></li>
+
+                <li><a href="/explore/head/">往期头条</a></li>
+
+                <li><a href="/explore/honor/">厨房101</a></li>
+
+                <li><a href="/explore/monthhonor/">月度最佳</a></li>
+
+                <li><a href="/explore/created/">最新创建</a></li>
+
+                <li><a href="/explore/menu/pop/">流行菜单</a></li>
+      </ul>
+
+      <div class="pop-keywords">
+        <p class="gray-font">流行搜索</p>
+        <ul class="plain list normal-font">
+          
+          <li><a href="/category/40076/">家常菜</a></li>
+          
+          <li><a href="/category/20158/">蛋糕</a></li>
+          
+          <li><a href="/category/1000007/">南瓜饼</a></li>
+          
+          <li><a href="/category/52373/">万圣节</a></li>
+          
+          <li><a href="/category/20161/">蛋挞</a></li>
+          
+          <li><a href="/category/1016552/">雪花酥</a></li>
+          
+          <li><a href="/category/1445/">牛肉</a></li>
+          
+          <li><a href="/category/1010937/">汤</a></li>
+          
+          <li><a href="/category/52411/">面包</a></li>
+          
+          <li><a href="/category/455/">南瓜</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pure-u-3-4 search-result-list">
+        
+        <h1 class="page-title">
+                本周最受欢迎
+        </h1>
+
+            
+<div class="normal-recipe-list">
+    <ul class="list">
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104185318/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/728034a743a6402586dfa6f517999bfb_1242w_1654h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="酸辣过瘾❗️巨好吃连汤汁都不会剩的酸汤馄饨" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104185318/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                酸辣过瘾❗️巨好吃连汤汁都不会剩的酸汤馄饨
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>馄饨</span>、<a href="/category/1945/" target="_blank">葱花</a>、<a href="/category/2275/" target="_blank">蒜末</a>、<span>熟芝麻</span>、<a href="/category/1888/" target="_blank">辣椒面</a>、<a href="/category/264/" target="_blank">紫菜</a>、<a href="/category/2028/" target="_blank">香菜</a>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">7</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/121844538/" class="gray-font" target="_blank">多M食堂-小静</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104158815/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/e681fef487df478fa3a0ec34c6d9ce61_620w_465h.webp@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="酸汤面" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104158815/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                酸汤面
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/394/" target="_blank">鸡蛋</a>、<a href="/category/1138/" target="_blank">青菜</a>、<a href="/category/5269/" target="_blank">挂面</a>、<a href="/category/5334/" target="_blank">白芝麻</a>、<a href="/category/2127/" target="_blank">小葱</a>、<a href="/category/2269/" target="_blank">蒜</a>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">23</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/138418648/" class="gray-font" target="_blank">阿花食集</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103944098/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/5d9022cf42d14987af053fd1206779c7_900w_1200h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="【卤肉饭】软糯又好吃的米饭杀手" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103944098/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                【卤肉饭】软糯又好吃的米饭杀手
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>五花肉</span>、<span>鸡蛋</span>、<span>洋葱</span>、<span>香菇</span>、<span>生抽</span>、<span>老抽</span>、<span>料酒</span>、<span>八角</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">12</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/120118615/" class="gray-font" target="_blank">老姚的Fennel</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104017678/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/f55c6413224f479ea4871643f6471125_1080w_1391h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="肉沫茄子（不用过油）" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104017678/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                肉沫茄子（不用过油）
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>茄子</span>、<span>生抽</span>、<span>老抽</span>、<span>盐</span>、<span>鸡精</span>、<span>淀粉</span>、<span>少许水</span>、<span>蒜</span>、<span>葱</span>、<span>姜</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">11</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/118986473/" class="gray-font" target="_blank">家常美食分享</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104186243/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/43db1b5fdedc46b5a119e87695272daf_1242w_1657h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="无需揉面❗️巨简单❗️酥到掉渣渣的紫薯酥饼" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104186243/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                无需揉面❗️巨简单❗️酥到掉渣渣的紫薯酥饼
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>手抓饼</span>、<span>紫薯</span>、<span>牛奶</span>、<span>炼乳</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">7</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/102955785/" class="gray-font" target="_blank">豆依mm</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104176034/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i2.chuimg.com/0fe716f0123d4e5db485ec3044f4589f_912w_684h.jpg?imageView2/1/w/215/h/136/interlace/1/q/90" width="215" height="136" alt="鲜美豆腐汤的简单做法" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104176034/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                鲜美豆腐汤的简单做法
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡蛋</span>、<span>嫩豆腐</span>、<span>海鲜菇</span>、<span>盐</span>、<span>蚝油</span>、<span>生抽</span>、<span>蒜</span>、<span>葱花</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">74</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/142280952/" class="gray-font" target="_blank">爱厨房的燕尾蝶</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104030320/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/3fb9bcaa3f574226bd0298c9def6308d_1124w_899h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="家庭版的手撕鸡" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104030320/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                家庭版的手撕鸡
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/1509/" target="_blank">鸡腿</a>、<a href="/category/1563/" target="_blank">姜片</a>、<a href="/category/2279/" target="_blank">葱段</a>、<a href="/category/1805/" target="_blank">盐</a>、<a href="/category/2073/" target="_blank">糖</a>、<a href="/category/2362/" target="_blank">生抽</a>、<a href="/category/1721/" target="_blank">香醋</a>、<a href="/category/1012262/" target="_blank">小米辣</a>、<a href="/category/5415/" target="_blank">蒜蓉</a>、<a href="/category/1299/" target="_blank">柠檬</a>、<a href="/category/2409/" target="_blank">鸡精</a>、<a href="/category/2028/" target="_blank">香菜</a>、<span>熟芝麻</span>、<a href="/category/1826/" target="_blank">香油</a>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">41</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/119896574/" class="gray-font" target="_blank">小爱麻麻饭婆子</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103884178/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/76c762af2e1c4591b49e287d4f17e933_1500w_1124h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="老师傅的糖醋排骨" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103884178/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                老师傅的糖醋排骨
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>精排</span>、<span>料酒</span>、<span>生抽</span>、<span>白醋</span>、<span>冰糖</span>、<span>八角(可不用)</span>、<span>橙皮(可不用)</span>、<span>老抽</span>、<span>白芝麻</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">18</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/122633392/" class="gray-font" target="_blank">菲菲de厨房</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104187830/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i2.chuimg.com/dc3787c6dfe24dd5994f6ea43edb329e_4032w_3024h.jpg?imageView2/1/w/215/h/136/interlace/1/q/90" width="215" height="136" alt="自制爽口脆萝卜" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104187830/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                自制爽口脆萝卜
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>萝卜</span>、<span>小米椒</span>、<span>泡椒</span>、<span>白砂糖（萝卜出水）</span>、<span>腌料汁：</span>、<span>米醋</span>、<span>生抽</span>、<span>白砂糖</span>、<span>食盐</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">1</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/106715644/" class="gray-font" target="_blank">独库食者</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104171189/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/361aff59968b41449be4f52c4fb0d188_1124w_1498h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="方便面这样炒着吃👉好吃到舔盘❗️" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104171189/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                方便面这样炒着吃👉好吃到舔盘❗️
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>方便面</span>、<span>鸡蛋</span>、<span>火腿肠</span>、<span>青菜</span>、<span>生抽</span>、<span>老抽</span>、<span>蚝油</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">13</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/115989404/" class="gray-font" target="_blank">青春妹-</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104055007/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/6d74042918e541e4a2c6d0d95b8086e6_1500w_1124h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="家常豆腐❗️下饭神器" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104055007/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                家常豆腐❗️下饭神器
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>老豆腐</span>、<span>木耳</span>、<span>青红椒</span>、<span>葱姜</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">21</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/115728870/" class="gray-font" target="_blank">糖宝麻麻-木木</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103706541/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/50c0dc28dff143009ccc3f049c8d1742_1242w_1656h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="韩剧中的鸡蛋卷" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103706541/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                韩剧中的鸡蛋卷
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡蛋</span>、<span>火腿（可不加）</span>、<span>胡萝卜丁（可不加）</span>、<span>葱花</span>、<span>盐</span>、<span>生粉</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">72</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/132426053/" class="gray-font" target="_blank">卷卷妈妈竹儿</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104188230/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/2c57d14289264eb6abf18103d6968ec4_1280w_1023h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="烧麦（饺子皮版）" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104188230/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                烧麦（饺子皮版）
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/846/" target="_blank">糯米</a>、<a href="/category/1137/" target="_blank">胡萝卜</a>、<a href="/category/5389/" target="_blank">干香菇</a>、<a href="/category/1001/" target="_blank">洋葱</a>、<a href="/category/1007098/" target="_blank">肉馅</a>、<a href="/category/2362/" target="_blank">生抽</a>、<a href="/category/2406/" target="_blank">老抽</a>、<a href="/category/1779/" target="_blank">蚝油</a>、<a href="/category/1869/" target="_blank">白糖</a>、<a href="/category/2134/" target="_blank">黑胡椒碎</a>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">1</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/125147095/" class="gray-font" target="_blank">泡椒雪碧</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104178170/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/639e1762ac5f4e0ebac7cb3fe2c02132_777w_1024h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="香菇肉末拌面" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104178170/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                香菇肉末拌面
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>面条(干湿都可)</span>、<span>香菇(干鲜都可)</span>、<span>肉末(猪肉或牛肉)</span>、<span>老抽</span>、<span>生抽</span>、<span>耗油</span>、<span>白糖</span>、<span>盐</span>、<span>葱</span>、<span>植物油</span>、<span>水</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">27</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/114194529/" class="gray-font" target="_blank">王美人2019</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103736472/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/e295399e3e6e4bec9335138de120baed_1500w_1124h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="山药饼" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103736472/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                山药饼
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/524/" target="_blank">山药</a>、<a href="/category/727/" target="_blank">面粉</a>、<a href="/category/2073/" target="_blank">白糖</a>、<a href="/category/394/" target="_blank">鸡蛋</a>、<a href="/category/2068/" target="_blank">酵母</a>、<a href="/category/1520/" target="_blank">奶粉</a>、<span>椰子油</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">92</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/102918744/" class="gray-font" target="_blank">柠檬-238</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103576588/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/8406598227374856a49ba00cb777778d_1152w_648h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="专治咳嗽的偏方" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103576588/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                专治咳嗽的偏方
+            </a>
+
+            <i class="exclusive-icon ml5"></i>
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/394/" target="_blank">鸡蛋</a>、<a href="/category/2073/" target="_blank">白糖</a>、<span>香油（就是芝麻油）</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">2</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/123294587/" class="gray-font" target="_blank">taiyangyue</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104188751/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i2.chuimg.com/0dbbcf591ded4cf284c28b67550b6470_1176w_1174h.jpg?imageView2/1/w/215/h/136/interlace/1/q/90" width="215" height="136" alt="巨简单的酸奶鸡蛋糕" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104188751/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                巨简单的酸奶鸡蛋糕
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡蛋</span>、<span>酸奶</span>、<span>白糖</span>、<span>淀粉</span>、<span>面粉</span>、<span>葡萄干</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">2</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/129822894/" class="gray-font" target="_blank">佛系素食料理</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104177124/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/fe6559a9fd1640d199d0fd5d1b34fa10_1125w_817h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="『家庭版炒合菜』" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104177124/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                『家庭版炒合菜』
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡蛋</span>、<span>韭菜</span>、<span>红薯粉丝</span>、<span>绿豆芽</span>、<span>生抽</span>、<span>老抽</span>、<span>蚝油</span>、<span>盐</span>、<span>糖</span>、<span>鸡精</span>、<span>小米椒</span>、<span>蒜</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">58</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/115063307/" class="gray-font" target="_blank">抛抛酱</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104134159/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i2.chuimg.com/38648726ddb94d30a0ccef9cbebc8675_1656w_1242h.jpg?imageView2/1/w/215/h/136/interlace/1/q/90" width="215" height="136" alt="番茄肥牛汤" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104134159/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                番茄肥牛汤
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>肥牛卷</span>、<span>西红柿</span>、<span>盐</span>、<span>蒜</span>、<span>姜</span>、<span>葱</span>、<span>白胡椒粉</span>、<span>生抽</span>、<span>蚝油</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">32</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/122362196/" class="gray-font" target="_blank">宸宝MM</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103974813/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/bac8912118404705b6a9b7a0ec2094b4_932w_456h.gif@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh.gif" width="215" height="136" alt="特别好吃的茄子炒饭" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103974813/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                特别好吃的茄子炒饭
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <a href="/category/178/" target="_blank">茄子</a>、<a href="/category/1003189/" target="_blank">肉末</a>、<a href="/category/5387/" target="_blank">米饭</a>、<a href="/category/1639/" target="_blank">老干妈</a>、<span>其他食材</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">4</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/121622025/" class="gray-font" target="_blank">美食家大雄本人</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104187646/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/1e00b85b3273430dbc903bf6ffaf3665_750w_984h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="奶香布丁" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104187646/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                奶香布丁
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>蛋黄</span>、<span>牛奶</span>、<span>白糖</span>、<span>面粉</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">3</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/120276852/" class="gray-font" target="_blank">思浩纯手工制作</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104180721/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i5.chuimg.com/f1c356e9cd534728bc3660c12251b57e_466w_311h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="五香鸡～不用剁不用油 撕着吃" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104180721/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                五香鸡～不用剁不用油 撕着吃
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡</span>、<span>洋葱</span>、<span>料酒</span>、<span>老抽</span>、<span>生抽</span>、<span>白糖</span>、<span>盐</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">5</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/135750201/" class="gray-font" target="_blank">Viola-无牙</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103563559/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/6c1f921601044f828ecf8f5c9a33e5dd_400w_225h.gif@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh.gif" width="215" height="136" alt="😁轻轻拍九下，离手还能抖半宿——是不是你梦寐以求的海绵蛋糕？这是来自马来西亚Apron的一个非常诱人的“日式Q软棉花海绵蛋糕”，没有任何非常规原料，看一遍立刻就能自己上手搞定！" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103563559/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                😁轻轻拍九下，离手还能抖半宿——是不是你梦寐以求的海绵蛋糕？这是来自马来西亚Apron的一个非常诱人的“日式Q软棉花海绵蛋糕”，没有任何非常规原料，看一遍立刻就能自己上手搞定！
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>配方：
+50毫升 植物油 
+80克 低筋面粉 
+80毫升 牛奶 
+5个 蛋黄 
+1个 全蛋 
+5个 蛋白 
+80克 细砂糖 
+1.5克 盐 </span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">37</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/129517633/" class="gray-font" target="_blank">David-173</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/103933064/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i1.chuimg.com/9bc771cceb1a468fa7c1b8398599b1d1_1836w_2448h.jpg@2o_50sh_1pr_1l_215w_136h_1c_1e_90q_1wh" width="215" height="136" alt="快手～鲜虾豆腐" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/103933064/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                快手～鲜虾豆腐
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>盒装豆腐</span>、<span>鲜虾</span>、<span>蒜末、香菜末</span>、<span>盐、鸡粉、白糖、白胡椒粉</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">9</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/136449893/" class="gray-font" target="_blank">小姨的味道</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+        <li>
+        
+        
+
+<div class="recipe recipe-215-horizontal pure-g image-link display-block">
+    <a href="/recipe/104188021/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+        <div class="cover pure-u">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAA1BMVEXo6Og4/a9sAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg" data-src="http://i2.chuimg.com/ef9ce794974945418f0140dd43f59a4f_1080w_864h.jpg?imageView2/1/w/215/h/136/interlace/1/q/90" width="215" height="136" alt="营养鸡胸肉加上丰富蔬菜——鸡胸肉炒三丁" />
+        </div>
+    </a>
+    <div class="info pure-u">
+        <p class="name">
+            <a href="/recipe/104188021/" data-click-tracking-url="" data-expose-tracking-url="" target="_blank">
+                营养鸡胸肉加上丰富蔬菜——鸡胸肉炒三丁
+            </a>
+
+
+            <i class="step-icon ml5"></i>
+        </p>
+        <p class="ing ellipsis">
+            <span>鸡胸肉</span>、<span>胡萝卜</span>、<span>玉米</span>、<span>雪豆</span>、<span>盐</span>、<span>胡椒粉</span>、<span>耗油</span>、<span>酱油</span>、<span>食用油</span>、<span>大蒜</span>
+        </p>
+        <p class="stats green-font">七天内 <span class="bold">1</span> 人做过</p>
+        <p class="author">
+                <a href="/cook/105741920/" class="gray-font" target="_blank">因为喜欢而热爱</a>
+        </p>
+    </div>
+</div>
+
+        </li>
+    </ul>
+</div>
+
+        <div class="pager">
+          <span class="prev">上一页</span><span class="now">1</span><a href="/explore/?page=2">2</a><a href="/explore/?page=3">3</a><a href="/explore/?page=4">4</a><a href="/explore/?page=5">5</a> ... <a href="/explore/?page=2" class="next">下一页</a>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+          <div id="main-panel-bottom"></div>
+        </div>
+        <!-- end of main-panel -->
+
+        <!-- begin of right-panel -->
+        <div class="pure-u-1-3 right-panel">
+          
+  
+
+  
+  <div class="right-ad block">
+    <!-- 广告位：其他上侧 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '961616',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  
+
+  
+    <div class="right-ad block">
+      <!-- 广告位：其他中间 -->
+      
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '961617',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+    </div>
+  
+
+  
+    <div class="block">
+      <div class="title-bar">
+        <div class="title">流行菜单</div>
+        <div class="right-action"><a href="/explore/menu/collect/" target="_blank">全部</a></div>
+      </div>
+      <div class="recipe-menus">
+      
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/102334750/" title="海鲜哦" target="_blank">
+          <img class="recipe-menu-cover" src="http://i1.chuimg.com/25d935e4881711e6a9a10242ac110002_640w_640h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="海鲜哦的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">海鲜哦</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/102317276/" title="水产海鲜" target="_blank">
+          <img class="recipe-menu-cover" src="http://i1.chuimg.com/865d2afc86f911e6a9a10242ac110002_435w_650h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="水产海鲜的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">水产海鲜</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/105809/" title="下班速度菜" target="_blank">
+          <img class="recipe-menu-cover" src="http://i5.chuimg.com/6ea15c92872311e6b87c0242ac110003_550w_424h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="下班速度菜的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">下班速度菜</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/100975402/" title="Yao亲测^^" target="_blank">
+          <img class="recipe-menu-cover" src="http://i2.chuimg.com/c5796be4874c11e6b87c0242ac110003_500w_393h.jpg?imageView2/1/w/300/h/140/interlace/1/q/90" alt="Yao亲测^^的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">Yao亲测^^</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/101725035/" title="美味面饼" target="_blank">
+          <img class="recipe-menu-cover" src="http://i5.chuimg.com/45e9add686f111e6a9a10242ac110002_450w_675h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="美味面饼的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">美味面饼</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/103650107/" title="早餐吃什么" target="_blank">
+          <img class="recipe-menu-cover" src="http://i2.chuimg.com/d9f15ad688e211e6a9a10242ac110002_640w_424h.jpg?imageView2/1/w/300/h/140/interlace/1/q/90" alt="早餐吃什么的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">早餐吃什么</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/103622227/" title="吃藕少女" target="_blank">
+          <img class="recipe-menu-cover" src="http://i5.chuimg.com/af4c8da886f511e6a9a10242ac110002_603w_800h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="吃藕少女的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">吃藕少女</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/101821680/" title="经典烘焙方子" target="_blank">
+          <img class="recipe-menu-cover" src="http://i5.chuimg.com/803162a449bf11e7947d0242ac110002_937w_1250h.jpg@2o_50sh_1pr_1l_300w_140h_1c_1e_90q_1wh" alt="经典烘焙方子的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">经典烘焙方子</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/102867680/" title="甜品" target="_blank">
+          <img class="recipe-menu-cover" src="http://i2.chuimg.com/efc4827c87ff11e6b87c0242ac110003_600w_426h.jpg?imageView2/1/w/300/h/140/interlace/1/q/90" alt="甜品的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">甜品</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/102595488/" title="减肥周期里可以吃的" target="_blank">
+          <img class="recipe-menu-cover" src="http://i2.chuimg.com/cdf6ec8e8b9211e6a9a10242ac110002_600w_333h.jpg?imageView2/1/w/300/h/140/interlace/1/q/90" alt="减肥周期里可以吃的的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">减肥周期里可以吃的</div>
+        </a>
+        
+        <a class="recipe-menu image-link has-border" href="/recipe_list/101534003/" title="小零食&amp;甜品！" target="_blank">
+          <img class="recipe-menu-cover" src="http://i2.chuimg.com/521497ca872211e6a9a10242ac110002_450w_605h.jpg?imageView2/1/w/300/h/140/interlace/1/q/90" alt="小零食&amp;甜品！的封面" width="300" height="140">
+          <div class="recipe-menu-name ellipsis">小零食&amp;甜品！</div>
+        </a>
+      </div>
+    </div>
+  
+
+  
+
+  
+  <div class="right-ad block">
+    <!-- 广告位：PC-列表-右侧3 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3452362',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+
+  <div class="right-ad block">
+    <!-- 广告位：PC-列表-右侧4 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3452256',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+
+  <div class="right-ad block fixed-scroller" data-interval="1000">
+    <!-- 广告位：PC-列表-右侧5 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3560617',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  
+
+  
+
+        </div>
+        <!-- end of right-panel -->
+      </div>
+    
+  </div>
+  <!-- end of page-container -->
+</div>
+
+<div class="bottom-outer">
+  <div class="bottom-container">
+   
+  </div>
+</div>
+
+
+
+<div class="footer-outer">
+  <div class="footer-container">
+     
+  
+  <div class="bottom-ad">
+  
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3543566',
+        container: s,
+        size: '1000,90',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  <div class="bottom-ad">
+    <!-- 广告位：PC-底部-底通2 -->
+    
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3543568',
+        container: s,
+        size: '1000,90',
+        display: 'inlay-fix',
+        async: true
+    });
+})();
+</script>
+
+  </div>
+  
+
+  <div class="pure-g buttons">
+    <a href="/page/join_market/" class="button">入驻下厨房市集</a>
+    <a href="/contact/" class="button">广告合作</a>
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u-3-4">
+      <a data-ga-event="公共页面/footer/$text" href="http://blog.xiachufang.com" target="_blank" title="美食生活杂志">美食生活杂志</a> &nbsp;
+      <a href="/job/" target="_blank" title="厨房工作" rel="nofollow">厨房工作</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/principle/" target="_blank" title="社区指导原则" rel="nofollow">社区指导原则</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="https://site.douban.com/106718/room/1939571/" target="_blank" title="下厨房出版的书" rel="nofollow">下厨房出版的书</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/faq/" target="_blank" title="帮助中心" rel="nofollow">帮助中心</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/contact/" target="_blank" title="联系我们" rel="nofollow">联系我们</a> &nbsp;
+        <a href="/auth/login/" title="意见反馈" rel="nofollow" rel="nofollow">意见反馈</a> &nbsp;
+      <a data-ga-event="公共页面/footer/$text" href="/privacy_policy/" target="_blank" title="隐私政策" rel="nofollow">隐私政策</a>
+    </div>
+    <div class="pure-u-1-4 align-right">
+      <div class="social-likes">
+        <a href="https://weibo.com/xiachufang" target="_blank" rel="nofollow">
+          <img src="https://s.chuimg.com/simpleicons/sinaweibo.svg" alt="微博" title="微博">
+        </a>
+        &nbsp;
+        <a href="https://twitter.com/xiachufang" target="_blank" rel="nofollow">
+          <img src="https://s.chuimg.com/simpleicons/twitter.svg" alt="Twitter" title="Twitter">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-3-4">
+      Copyright &copy; xiachufang.com &nbsp;
+      京B2-20180499 &nbsp;
+      <a href="http://www.miibeian.gov.cn" class="gray-link" target="_blank" rel="nofollow">京ICP备13009078号-1</a> &nbsp;
+      京公网安备11010802022310号
+      <br>
+      违法和不良信息举报电话：010-52800126 &nbsp;
+      举报邮箱：talk@xiachufang.com
+    </div>
+    <div class="pure-u-1-4 align-right">
+      唯有美食与爱不可辜负
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+  
+  <script src="//s.chuimg.com/dist/1e27811f613082e388e5.js"></script>
+  
+
+<script src="//s.chuimg.com/dist/d1626bd11bf1a3fa3247.js"></script>
+
+<div id='color_timer'></div>
+
+
+
+</body>
+
+</html>
